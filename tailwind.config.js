@@ -34,6 +34,32 @@ module.exports = {
           80: "#1F2937",
           90: "#111827",
         },
+        wine: {
+          50: "#fdf2f2",
+          100: "#fde6e6",
+          200: "#fbd0d0",
+          300: "#f8a9a9",
+          400: "#f27474",
+          500: "#e94343",
+          600: "#d62626",
+          700: "#b31b1b",
+          800: "#931818",
+          900: "#7a1616",
+          950: "#430909",
+        },
+        gold: {
+          50: "#fbf9ef",
+          100: "#f5f1d8",
+          200: "#ebe1b4",
+          300: "#dec986",
+          400: "#d0af5e",
+          500: "#c09543",
+          600: "#a37735",
+          700: "#825a2f",
+          800: "#6b492c",
+          900: "#583d28",
+          950: "#312013",
+        },
       },
       borderRadius: {
         none: "0px",
@@ -60,6 +86,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [
+          "var(--font-lato)",
           "Inter",
           "-apple-system",
           "BlinkMacSystemFont",
@@ -68,6 +95,12 @@ module.exports = {
           "Helvetica Neue",
           "Ubuntu",
           "sans-serif",
+        ],
+        serif: [
+          "var(--font-playfair-display)",
+          "Georgia",
+          "Times New Roman",
+          "serif",
         ],
       },
       keyframes: {
